@@ -11,7 +11,7 @@ RUN apt-get update && \
 
 RUN curl -sS https://getcomposer.org/installer | php
 
-RUN php composer.phar create-project cronkeep/cronkeep --keep-vcs -s dev /var/www/cronkeep
+RUN php composer.phar create-project cronkeep/cronkeep --keep-vcs -s dev /var/www/html/cronkeep
 
 
 EXPOSE 80 
